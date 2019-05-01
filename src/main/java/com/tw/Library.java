@@ -7,7 +7,7 @@ import java.util.*;
  */
 public class Library {
     //保存全部学生信息
-    Map<String,Student> studentMap = new HashMap<>();
+    public Map<String,Student> studentMap = new HashMap<>();
 
     public boolean someLibraryMethod() {
         return true;
